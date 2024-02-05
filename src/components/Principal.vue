@@ -1,7 +1,9 @@
 <template>
     <div class="container">
       <h1>Principal</h1>
-      <b-breadcrumb :items="items"></b-breadcrumb>
+      <div class="m-5">
+      <b-breadcrumb :items="items"  class="bg-light p-2 rounded"></b-breadcrumb>
+    </div>
       <div class="row">
         <div class="col-md-4 mb-4">
           <div class="card">
